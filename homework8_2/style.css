@@ -1,0 +1,48 @@
+body {
+    font-family: 'Kameron', serif;
+    background-color: #e2e7ec;
+    height: 1400px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 1120px;
+    margin: 90px auto;
+    font-size: 0px;
+    height: 1105px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #1d1d1d;
+} 
+.box {
+    height: 540px;
+    width: 32%;
+    background-color: white;
+    font-size: 14px; 
+    position: relative;
+}
+.box1 {
+    width: 66%;
+    background-image: url(/1.png);
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.text {
+    margin: 40px;
+}
+.text1 {
+    margin-bottom: 30px;
+}
+.text4 {
+    margin-top: 60px;
+}
+.diadia {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
