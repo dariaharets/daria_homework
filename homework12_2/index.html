@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="#" method="GET">
+            <div class="container__form">
+                <div class="form__radio">
+                    <input id="sign" name="radio" type="radio" checked>
+                    <label class="sign" for="sign">Sign in</label>
+                    <input id="join" name="radio" type="radio">
+                    <label for="join">Join us</label>
+                    <input id="join" name="radio" type="radio">
+
+                    <div class="form__joining">
+                        <div class="window">
+                            <label for="name">Username</label>
+                            <input minlength="3" class="input" type="text" required>
+                            <div class="error">error</div>
+                        </div>
+                        <div class="window">
+                            <label for="password">Password</label>
+                            <input minlength="4" class="input" type="password" reqired>
+                            <div class="error">error</div>
+                        </div>
+                        <div class="window">
+                            <label for="password">Repeat password</label>
+                            <input minlength="4" class="input" type="password" regired>
+                            <div class="error">error</div>
+                        </div>
+                        <button value="submit">Join in</button>
+                    </div>
+
+                    <div class="form__signing">
+                        <div class="window">
+                            <label for="name">Username</label>
+                            <input minlength="3" class="input" type="text" required>
+                            <div class="error">error</div>
+                        </div>
+                        <div class="window">
+                            <label for="password">Password</label>
+                            <input minlength="4" class="input" type="password" regired>
+                            <div class="error">error</div>
+                        </div>
+                        <div class="window">
+                            <input id="check" class="checkbox" type="checkbox" checked>
+                            <label for="check" class="label">Keep me signed in</label>
+                        </div>
+                        <button value="submit">Sign in</button>
+                        <div class="foot">
+                            <div><a>Forgot password</a></div>
+                            <div><a>Create an account</a></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
