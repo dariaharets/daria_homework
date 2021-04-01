@@ -1,0 +1,152 @@
+.wrapper {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(/pics/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 110px;
+    height: 600px;
+    font-family: 'Museo Sans Rounded',sans-serif;
+    color: #dededf;
+}
+@font-face {
+    font-family: 'Museo Sans Rounded';
+    src: local('Museo Sans Rounded 100'), local('Museo-Sans-Rounded-100'),
+        url('MuseoSansRounded-100.woff2') format('woff2'),
+        url('MuseoSansRounded-100.woff') format('woff'),
+        url('MuseoSansRounded-100.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    background-color: #152335;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 15px;
+    position: relative;
+    height: 390px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container__logo {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+
+}
+.container__picture-area{
+    width: 415px;
+}
+.container__text {
+    width: 230px;
+}
+h1{
+    font-size: 24px;
+    font-weight: 100;
+}
+p {
+    font-size: 14px;
+    color: #85888e;
+}
+
+.container__form {
+    display: flex;
+    justify-content: space-evenly;
+    width: 145px;
+    margin-top: 25px;
+}
+.rating-area {
+	overflow: hidden;
+	width: 70px;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 14px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 14px;
+	line-height: 14px;
+	color: lightgrey;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+}
+.rate-area > label:active {
+	position: relative;
+}
+select{
+    width: 70px;
+    height: 30px;
+    background-color: #152335;
+    border: solid 1px #525c69;
+    color: #979a9f;
+    font-family: 'Museo Sans Rounded',sans-serif;
+    font-size: 14px;
+}
+button {
+    width: 185px;
+    background-color: #283443;
+    height: 40px;
+    border: solid 1px #525c69;
+    color: #979a9f;
+    margin-top: 30px;
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-size: 14px;
+}
+.container__picture {
+    background-image: url(/pics/1.png);
+    width: 390px;
+    height: 285px;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container__buttons {
+    width: 75px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.container__button {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.button-big{
+    width: 15px;
+    height: 15px;
+    background-color: #293550;
+    border: solid 1px #808892;
+    box-sizing: border-box;
+}
+.button-white {
+    background-color: #fff;
+}
+.button-red {
+    background-color: #f34b42;
+}
+.button-green{
+    background-color: #25e7ee;
+}

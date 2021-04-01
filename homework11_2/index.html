@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div><img class="container__logo" src="/pics/logo.png"></div>
+            <div class="container__picture-area">
+                <div class="container__picture"></div>
+                <div class="container__buttons">
+                    <div class="container__button button-big"></div>
+                    <div class="container__button button-white"></div>
+                    <div class="container__button button-red"></div>
+                    <div class="container__button button-green"></div>
+                </div>
+            </div>
+                
+            <div class="container__text">
+                <h1>Nike SB Stefan Janoski Max</h1>
+                <p>Unisex Skateboarding Shoe (Men's Sizing)</p>
+                    <div class="rating-area">
+                        <input type="radio" id="star-5" name="rating" value="5">
+                        <label for="star-5" title="Оценка «5»"></label>	
+                        <input type="radio" id="star-4" name="rating" value="4">
+                        <label for="star-4" title="Оценка «4»"></label>    
+                        <input type="radio" id="star-3" name="rating" value="3">
+                        <label for="star-3" title="Оценка «3»"></label>  
+                        <input type="radio" id="star-2" name="rating" value="2">
+                        <label for="star-2" title="Оценка «2»"></label>    
+                        <input type="radio" id="star-1" name="rating" value="1">
+                        <label for="star-1" title="Оценка «1»"></label>
+                    </div>
+                    <div class="container__form">
+                        <div>
+                            <select title="Size" required>
+                                <option selected>Size</option>
+                                <option>38</option>
+                                <option>39</option>
+                                <option>40</option>
+                                <option>41</option>
+                                <option>42</option>
+                                <option>43</option>
+                                <option>44</option>
+                                <option>45</option>
+                                <option>46</option>
+                                <option>47</option>
+                            </select>
+                            
+                        </div>
+                        <div>
+                            <select class="qty" required>
+                                <option selected>Qty</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button value="Submit">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
