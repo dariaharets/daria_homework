@@ -1,0 +1,40 @@
+body{
+    background-color: #fdde7e;
+    font-family: sans-serif;
+    text-align: center;
+}
+h1 {
+    color: #02995b;
+}
+.wrapper{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+div{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.one {
+    background-color: white;
+    height: 445px;
+    width: 25%;
+    
+}
+.two {
+    background-color: white;
+    height: 500px;
+    width: 25%;
+}
+.three {
+    background-color: white;
+    height: 445px;
+    width: 25%;
+}
+.margin {
+    margin: 37px 100px;
+}
