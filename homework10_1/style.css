@@ -1,0 +1,104 @@
+.wrapper {
+    background-color: #b07cf7;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    height: 865px;
+    text-align: center;
+    width: 100%;
+    padding-top: 100px;
+}
+h1 {
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 100px;
+    margin: 0;
+}
+p {
+    font-size: 17px;
+}
+.by {
+    font-size: 13px;
+}
+h2 {
+    font-size: 20px;
+}
+.container {
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    margin: 45px auto;
+}
+.title {
+    width: 38%;
+    margin: 0 auto;
+}
+.dolore {
+    font-size: 17px;
+    padding: 30px;
+}
+
+.date {
+    width: 60px;
+    height: 60px;
+    background-color: #262626a6;
+    border-radius: 5px;
+    font-size: 30px;
+    top: 30px;
+    left: 35px;
+    box-sizing: border-box;
+    margin: 30px auto auto 30px;
+}
+.nov {
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 30px;
+}
+span {
+    font-size: 20px;
+}
+.box{
+    position: relative;
+    height: 310px;
+    width: 370px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.box1 {
+     background-image: url(/1.png);
+ }
+.box2 {
+    background-image: url(/2.png);
+}
+.box3 {
+    background-image: url(/3.png);
+}
+.text {
+    text-align: left;
+    height: 100px;
+    margin-bottom: 20px;
+    position: absolute;
+    padding-left: 20px;
+    bottom: 0;
+}
+.gradient {
+    background: rgb(20,14,28);
+    background: linear-gradient(0deg, rgba(20,14,28,1) 0%, rgba(255,255,255,0) 46%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+button {
+    width: 200px;
+    height: 56px;
+    background-color: #f72b3b;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    font-family: 'Raleway', sans-serif;
+}
+
+  
